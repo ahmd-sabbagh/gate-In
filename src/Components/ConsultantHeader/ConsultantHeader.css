@@ -1,0 +1,26 @@
+.App[dir="rtl"] .ConsultantHeader .description {
+    padding-right: 20px;
+  }
+  .App[dir="ltr"] .ConsultantHeader .description {
+    padding-left: 20px;
+  }
+  .ConsultantHeader .row {
+    row-gap: 48px;
+  }
+  .ConsultantHeader .description::after {
+    content: "";
+    position: absolute;
+    width: 6px;
+    height: 100%;
+    background-color: var(--main-color);
+    top: 0;
+    border-radius: 6px;
+  }
+  
+  .App[dir="ltr"] .ConsultantHeader .description::after {
+    left: 0;
+  }
+  .App[dir="rtl"] .ConsultantHeader .description::after {
+    right: 0;
+  }
+  

@@ -1,0 +1,32 @@
+.Header-data .links {
+  max-width: 90%;
+}
+@media (max-width: 767px) {
+  .Header-data .nav-link {
+    height: 73px;
+    background-color: #f7f7f7;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+}
+@media (min-width: 768px) {
+  .Header-data .nav-link {
+    flex: 1;
+    height: 73px;
+    background-color: #f7f7f7;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.Header-data .active {
+  border-bottom: 4px solid var(--main-color);
+}

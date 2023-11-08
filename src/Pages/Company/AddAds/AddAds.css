@@ -1,0 +1,16 @@
+.AddAds .window label {
+  background: rgba(1, 133, 67, 0.1);
+}
+.AddAds .window label .icon {
+  font-size: 25px;
+  color: var(--main-color);
+}
+.AddAds .window label p {
+  max-width: 274px;
+}
+.AddAds .window label p span {
+  color: var(--main-color);
+}
+.AddAds textarea{
+    min-height: 150px;
+}

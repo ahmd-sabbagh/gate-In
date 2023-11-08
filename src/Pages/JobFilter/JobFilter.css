@@ -1,0 +1,10 @@
+
+.AllFilter .body {
+  width: 100%;
+  /* overflow: hidden; */
+}
+
+/* Scroll Bar */
+.scrool-sidebar-mobile::-webkit-scrollbar {
+  display: none;
+}

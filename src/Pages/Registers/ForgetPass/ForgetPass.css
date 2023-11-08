@@ -1,0 +1,34 @@
+.ForgetPass {
+  background: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.57) 0%,
+      rgba(0, 0, 0, 0.57) 100%
+    ),
+    url("../Assets/LoginCover.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+
+.ForgetPass .content {
+  min-height: calc(100vh - 96px);
+  border-radius: 29px;
+  background-color: white;
+  max-width: 811px;
+}
+.ForgetPass .content p {
+  max-width: 380px;
+}
+
+.ForgetPass .content form button {
+  border: none;
+  background-color: var(--main-color);
+  padding: 14px;
+  border-radius: 8px;
+  color: white;
+}
+
+.ForgetPass form input {
+  border: none;
+  outline: none;
+  width: 100%;
+}

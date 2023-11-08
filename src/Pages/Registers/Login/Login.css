@@ -1,0 +1,59 @@
+.Login {
+  background: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.57) 0%,
+      rgba(0, 0, 0, 0.57) 100%
+    ),
+    url("../Assets/LoginCover.jpeg");
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+}
+.Login .content {
+  border-radius: 29px;
+  background-color: white;
+  max-width: 811px;
+  width: 100%;
+}
+.Login .content .login-google {
+  background-color: var(--red-color);
+  width: 100%;
+  border-radius: 8px;
+}
+.Login .content .or::after,
+.Login .content .or::before {
+  content: "";
+  position: absolute;
+  width: 45%;
+  height: 1px;
+  background-color: #d4d4d4;
+}
+.Login .content .or::before {
+  left: 0;
+}
+.Login .content .or::after {
+  right: 0;
+}
+.Login .content form input {
+  border: none;
+  outline: none;
+}
+
+.Login .content form button {
+  border: none;
+  background-color: var(--main-color);
+  padding: 14px;
+  border-radius: 8px;
+  color: white;
+}
+
+.content form input::-webkit-outer-spin-button,
+.content form input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+.content form input[type="number"] {
+  -moz-appearance: textfield;
+}

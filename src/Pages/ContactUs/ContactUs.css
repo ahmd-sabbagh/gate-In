@@ -1,0 +1,8 @@
+.ContactUs .bg-form {
+  background-color: #9ed1b73d;
+}
+@media (min-width: 991px) {
+  .ContactUs .bg-form {
+    max-width: 900px;
+  }
+}

@@ -1,0 +1,36 @@
+.MainJobDetails .circle {
+  height: 6px;
+  min-width: 6px;
+  border-radius: 50%;
+  background: #d9d9d9;
+}
+
+.MainJobDetails .tags div {
+  background: #f7f7f7;
+  border-radius: 37px;
+}
+@media (max-width: 767px) {
+  .MainJobDetails .logo-image {
+    width: 62px;
+    height: 60px;
+    border-radius: 50%;
+  }
+}
+@media (min-width: 768px) {
+  .MainJobDetails .logo-image {
+    width: 104px;
+    height: 104px;
+    border-radius: 50%;
+  }
+}
+
+.MainJobDetails .like {
+  width: 68px;
+  height: 68px;
+  background-color: #d6f3e5;
+  color: var(--main-color);
+  font-size: 25px;
+}
+.bottom button {
+  height: 68px;
+}

@@ -1,0 +1,49 @@
+.card-tags {
+  max-width: 100%;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+.card-tags .tag {
+  background: #f7f7f7;
+  border-radius: 37px;
+  transition: 0.5s;
+}
+/* button arow */
+.left-button{
+    width: 31px;
+    height: 31px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    z-index: 20;
+    background-color: white;
+    color: var(--main-color);
+    cursor: pointer;
+    box-shadow: 0 0 20px 11px white;
+}
+.left-button svg{
+    transform: rotate(90deg);
+}
+.right-button{
+    width: 31px;
+    height: 31px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 50%;
+    z-index: 20;
+    background-color: white;
+    color: var(--main-color);
+    cursor: pointer;
+    box-shadow: 0 0 20px 11px white;
+}
+.right-button svg{
+    transform: rotate(-90deg);
+}
+/* Scroll Bar */
+/* width */
+.card-tags::-webkit-scrollbar {
+display: none;
+  }
+  /* Scroll Bar */

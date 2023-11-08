@@ -1,0 +1,537 @@
+{
+  "home": {
+    "nav": {
+      "home": "Home",
+      "whoUs": "Who Us",
+      "qualification": "Qualification",
+      "jobs": "Jobs",
+      "training-institutes": "Training Institutes",
+      "flyers": "Flyers",
+      "login": "Login",
+      "english": "English",
+      "arabic": "Arabic",
+      "windowUser": {
+        "my_account": "My Account",
+        "logOut": "Log Out"
+      }
+    },
+    "landing": {
+      "two": "The only site that brings together the three stakeholders: alumni, training institutes and employers",
+      "three": "The job portal takes care of qualifying you professionally, training you technically, enhancing your self-confidence, and assisting you in searching for a suitable job that guarantees you the future"
+    },
+    "platform": {
+      "title": "The portal platform for vocational rehabilitation",
+      "desc": "Gatein platform is devoted to your professional qualification and evaluating your qualifications by consultants and providing the specialized courses that you need and helping you in obtaining a suitable job",
+      "card_title1": "Training courses (for institutes)",
+      "card_desc1": "You will find a large number of training institutes offering training courses to you according to your choice or according to the guidance of consultants on the platform",
+      "card_title2": "Jobs for all specialties (graduate)",
+      "card_desc2": "We show you the jobs requested by Iraqi companies, institutions and organizations. Find the right jo",
+      "card_title3": "Searching for qualified employees (for companies)",
+      "card_desc3": "We show you the CVs of job seekers who have been professionally qualified at the Gateway Center according to their specializations",
+      "card_title4": "Assisting pioneers in special projects (Pioneers)",
+      "card_desc4": "We have experts in the field of small and medium enterprise management to help you implement your pioneering projects"
+    },
+    "search_work": {
+      "head": "For job seekers",
+      "title": "Get the best jobs that suit your qualifications with the best companies",
+      "desc": "A platform created for you to help you get the right jobs. We also have features and services that we provide to you, such as:"
+    },
+    "program_help": {
+      "title": "Vocational rehabilitation program to help you get a suitable job",
+      "desc": "he program consists of four workshops: 1- Writing a CV for a graduate with no previous experience. 2- Writing a job application letter. 3- Job interview. 4- Work ethics and job behavior"
+    },
+    "bosses": {
+      "head": "The bosses",
+      "title": "Search for qualified employees to fill your available positions",
+      "desc": "A platform created for you to help you get the right employees for you. We also have features and services that we provide to you, such as: advertisements"
+    },
+    "articles": {
+      "tittle": "Learn about the special services we offer you",
+      "brief": "A platform created for you to help you find the right jobs. We also have features and services that we provide for you:"
+    },
+    "store": {
+      "title": "The Gateway App is now available for download",
+      "disc": "The Work Gateway takes care of your professional qualification, technical training, boosts your self-confidence, and helps you in finding a suitable job that ensures your future."
+    }
+  },
+  "footer": {
+    "usage": "Usage Policy",
+    "conditions": "Terms and Conditions",
+    "the_support": "Support",
+    "about_site": "About the Site",
+    "jobs": "Jobs",
+    "courses": "Courses",
+    "app": "The app is now available on:",
+    "title": "Work Gateway for Professional Qualification and Entrepreneurship"
+  },
+  "whoUs": {
+    "name": "Dr/ Fouad Jamil Al-Azzawi",
+    "qualification": "University / assistant professor",
+    "desc": "Founder of the Business Gate, Entrepreneurship and Information Technology Company - an Iraqi company officially registered on 4/7/2023",
+    "desc1": "The doctor studied in Iraq, Egypt, Britain, France, and Romania, and trained in America. He also taught in Libya, Jordan, the Sultanate of Oman, and at Al-Rafidain University College",
+    "desc2": "The doctor's last job: Director of Al-Rafidain Unit for Rehabilitation, Employment and Follow-up, where he supervised the rehabilitation of hundreds of graduates, and a number of them had the occasion",
+    "tittle": "How did the story unfold",
+    "story": "A dream that has haunted me for many years is to employ my academic, professional and educational experience in a special project to qualify graduates from all Iraqi colleges and universities and help them find a suitable job that puts them on the path to building their future and achieving their goals in life and in community service after I have lived with the suffering and frustration that graduates are exposed to In search of a job that preserves their dignity among their peers in society, in 2018 the Iraqi Ministry of Higher Education adopted a project to qualify graduates among Iraqi governmental universities in cooperation with IREX International. As the first university institution eligible to enroll in public universities and form the Al-Rafidain Unit for Rehabilitation and Employment, I was assigned as a teaching member of the Department of Computer Engineering to manage this unit. I was trained to manage the unit and licensed by the Department of Studies"
+  },
+  "qualification": {
+    "head": "Qualification Program",
+    "card": {
+      "title": "Basic Qualification Program for Employee Development and Position Preparation",
+      "name": "Mr. Ahmed Abdel-Moneim",
+      "date": "Starts on May 22, 2023",
+      "disc": "This text is an example that can be replaced in the same space. This text was generated by an Arabic text generator, where you can generate such text or many other texts.",
+      "monthes": "Months",
+      "students": "Students"
+    },
+    "details_prog": {
+      "title": "Program Details",
+      "disc": "The text is an example of text that can be replaced in the same space. This text was generated from the Arabic text generator, where you can generate such text or many other texts in addition to increasing the number of letters that the application generates. This text is an example of text that can be replaced in The same space, e has been generated"
+    },
+    "prog_content": {
+      "title": "Program Content",
+      "disc1": "An applied workshop on writing a CV for a graduate who does not have experience with writing a job application letter",
+      "disc2": "",
+      "disc3": ""
+    },
+    "what_learning": {
+      "title": "What do you learn from the program?",
+      "disc1": "This text is an example of text that can be replaced in the same space. This text was generated from the text generator",
+      "disc2": "",
+      "disc3": ""
+    },
+    "processes": {
+      "title": "Graduate Qualification Processes",
+      "first_case": {
+        "tit": "First Case: In-Person Participation with a Fee of 100,000 Dinars",
+        "disc": "In this case, the participant receives:",
+        "point": "Attendance in 4 workshops at the Gate of Work Center on Palestine Street"
+      },
+      "second_case": {
+        "tit": "Second Case: Online Participation for Free",
+        "disc": "In this case, the participant receives:",
+        "point": "Online access to qualification workshops on the platform"
+      }
+    }
+  },
+  "consultant": {
+    "tittle1": "Advisors Team",
+    "name": "Ahmed Abd Elmon3em",
+    "desc": "PhD in management, business and entrepreneurship, specializing in corporate and business management"
+  },
+  "Radio": {
+    "tittle": "GATEIN Log In To The Job Portal",
+    "inputs": {
+      "one": "Job Seekers",
+      "two": "Search For Employees (Companies)",
+      "three": "Specialized Training Institutes",
+      "four": "Entrepreneurs And Small Projects"
+    },
+    "login-now": "Login now"
+  },
+  "login": {
+    "tittle": "welcome back",
+    "loginbygoogle": "Register with Google",
+    "or": "or",
+    "phonenumber": "mobile number",
+    "password": "password",
+    "forgetpass": "Forgot your password",
+    "nohaveaccount": "You do not have an account",
+    "craeteaccount": "Create a new account",
+    "placeholdermobile": "phone number",
+    "placeholderpassword": "password"
+  },
+  "verify": {
+    "tittle": "recovery code",
+    "desc": "Enter the 6-digit code sent to the number",
+    "btn": "confirm",
+    "not-receive": "Didn't receive the code yet?",
+    "resend": "Resend after"
+  },
+  "forget-pass": {
+    "tittle": "forgot the password",
+    "desc": "Please enter your phone number to retrieve your password",
+    "placeholder": "Phone Number",
+    "btn": "Password Recovery"
+  },
+  "new-pass": {
+    "tittle": "New Password",
+    "desc": "Create a strong password consisting of 8 letters, numbers and symbols",
+    "place-hold1": "New Password",
+    "place-hold2": "Confirm the new password",
+    "btn": "save"
+  },
+  "create-account": {
+    "tittle": "Welcome to the Career Rehabilitation Gate",
+    "place-name1": "First Name",
+    "place-name2": "last name",
+    "phone-num": "mobile number",
+    "password": "password",
+    "conditons": "By clicking on the Register Now button, you agree",
+    "condition-btn": "Terms and Conditions"
+  },
+  "consaltant-details": {
+    "tittle": "Scientific certificates obtained",
+    "desc": "A complex of knowledgeable certificates obtained by the consultant",
+    "more": "More advisors"
+  },
+  "job-course": {
+    "tittle-job": "Job details"
+  },
+  "employe-page": {
+    "tittle": "Complete the registration",
+    "steps": {
+      "one": "Personal data",
+      "two": "Education data",
+      "three": "Previous experience"
+    }
+  },
+  "Btns": {
+    "loginnow": "Register Now",
+    "haveaemail": "You Already Have An Account",
+    "login": "Sign In"
+  },
+  "tittle": {
+    "nav": "Hello Evry One"
+  },
+  "buttons": {
+    "home": {
+      "join": "Join The Program Now",
+      "get": "Get Your Chance",
+      "search": "Start Searching Now"
+    }
+  },
+  "filter": {
+    "jobs_filter": "Jobs Filter",
+    "course_filter": "Courses Filter",
+    "Job_classification": "Job Classification",
+    "course_classification": "Course Classification",
+    "Country": "Country",
+    "Country_search": "Search by Country Name",
+    "Governorate": "Governorate",
+    "Governorate_search": "Search by City Name",
+    "Type_of_the_course": "Course Type",
+    "theoretical": "Theoretical",
+    "practical": "Practical",
+    "Type_of_the_job": "Job Type",
+    "all": "Full-time",
+    "part": "Part-time",
+    "home": "Remote",
+    "Career_Level": "Career Level",
+    "Fresh_graduate": "Fresh Graduate",
+    "middle": "Intermediate",
+    "expert": "Expert",
+    "High_experience": "High Experience",
+    "boss": "Manager",
+    "Years_of_Experienc": "Years of Experience",
+    "Job_posting_date": "Job Posting Date",
+    "course_posting_date": "Course Posting Date",
+    "last_24_hour": "Last 24 Hours",
+    "last_week": "Last Week",
+    "last_month": "Last Month",
+    "the_least": "Lowest",
+    "the_above": "Highest",
+    "confirm": "Apply"
+  },
+  "jobs": {
+    "title": "Discover the Best Jobs",
+    "btn1": "Apply for the Job Now",
+    "btn2": "View Job Details",
+    "get_more": "Get More",
+    "less": "Show Less",
+    "no_jobs": "No Jobs Available"
+  },
+  "courses": {
+    "title": "Discover the Best Courses",
+    "btn1": "Join Now",
+    "btn2": "View Full Details",
+    "no_jobs": "No Courses Available",
+    "student_count": "Students"
+  },
+  "flyers": {
+    "details": "Details",
+    "more": "More"
+  },
+  "user_profile": {
+    "welcome": "Welcome to the Employment and Qualification Portal",
+    "Browse_courses": "Browse Courses",
+    "my_account": "My Account",
+    "My_personal_data": "My Personal Data",
+    "cv": "CV",
+    "Qualification": "Qualification Courses",
+    "prog": "Program",
+    "cirteficate": "Certificate",
+    "Consultants": "Consultants Recommendations",
+    "jobs": "Jobs",
+    "order_jobs": "Job Application",
+    "all_jobs": "All Jobs",
+    "Favorite_jobs": "Favorite Jobs",
+    "my_order": "My Orders",
+    "courses": "Courses",
+    "all_courses": "All Courses",
+    "favorite_courses": "Favorite Courses",
+    "download": "Download",
+    "no_favorite_jobs": "You have no favorite jobs",
+    "no_favorite_courses": "You have no favorite Courses",
+    "no_have_order": "You have no orders",
+    "get_jobs_now": "Request a job now"
+  },
+  "recommendations": {
+    "title": "Recommendations from the Advisory Team",
+    "no": "None",
+    "more":"Team of Advisors"
+  },
+  "my_personal_data_user": {
+    "My_personal_data": "My Personal Data",
+    "the_personal_data": "Personal Information",
+    "add_photo": "Add Photo",
+    "mega": "Attach an image that does not exceed 35 megabytes",
+    "name": "Full Name",
+    "last_name": "Last Name",
+    "number_phone": "Phone Number",
+    "email": "Email",
+    "country": "Country",
+    "government": "Governorate",
+    "city": "City",
+    "type": "Gender",
+    "male": "Male",
+    "famale": "Female",
+    "birthday": "Date of Birth",
+    "socity": "Marital Status",
+    "free": "Single",
+    "marrid": "Married",
+    "up_free": "Divorced",
+    "dead": "Widow/Widower",
+    "nationality": "Nationality",
+    "disc": "Description",
+    "disc_place": "Write a short sentence that describes you",
+    "like": "Example: Enthusiastic, Cooperative, ...",
+    "save": "Save",
+    "the_lerning_data": "Educational Information",
+    "general_lerning": "Basic Education Data",
+    "Specialization": "Major",
+    "Specialization_year": "Year of Graduation",
+    "mention_institute": "Specify the college or institute",
+    "education_learning": "Acquired Education Data",
+    "languages": "Languages",
+    "certificate": "Certificate",
+    "add_cirtificate": "Add Certificate",
+    "exp": "Previous Experience",
+    "Current_Position": "Current Position",
+    "company_name": "Company Name",
+    "previous_jobs": "Previous Positions",
+    "job": "Position",
+    "job_name": "Job Title",
+    "from": "From",
+    "to": "To",
+    "year": "Year",
+    "worke_place": "Workplace",
+    "delete": "Delete",
+    "add_jobs": "Add New Job"
+  },
+  "company_profile": {
+    "side_bar": {
+      "home": "Home",
+      "data": "Company Information",
+      "jobs_aproved": "Listed Jobs",
+      "employer_search": "Job Seekers",
+      "company_ads": "Company Advertisements"
+    },
+    "company_data": {
+      "My_personal_data": "Enter the following information to continue the registration process",
+      "arabic": "Arabic",
+      "english": "English",
+      "urdu": "Urdu",
+      "company_disc": "Company Description",
+      "company_disc_place": "Write here...",
+      "work_place": "Work Location",
+      "phone_num": "Phone Number",
+      "company_date": "Company Establishment Date",
+      "center_date": "Center Establishment Date",
+      "company_num": "Company Registration Number",
+      "center_num": "Center Registration Number",
+      "specialty_company": "Company Specialty",
+      "specialty_center": "Center Specialty",
+      "specialty_place": "Select Specialty",
+      "company_site": "Company Website Link",
+      "center_site": "Center Website Link"
+    },
+    "WelcomData": {
+      "header": "Welcome,",
+      "startNow": "Start now by posting your first job listing and find the right employees.",
+      "hent": "You can now create a new job listing with the position that suits you, and receive applications from many job seekers.",
+      "linkTitle": "Add a New Job"
+    },
+    "add_jobs": "Add New Job",
+    "jobs_approved": "Approved jobs",
+    "suggest_employer": "Suggested Employees for You",
+    "view": "View",
+    "search_by_cv": "Search for Employees by CV",
+    "search_by_cv_disc": "It's now easy to find employees based on their resumes.",
+    "search_now": "Search Now"
+  },
+  "company_job_details": {
+    "edit_data": "Edit Data",
+    "Job_applicants": "Job Applicants",
+    "no_applicants": "No applicants for the job",
+    "view_all": "View All",
+    "job_details": "Job Details",
+    "course_details": "Course Details",
+    "job_level": "Job Level:",
+    "corse_price": "Course Price:",
+    "salary": "Expected Salary:",
+    "confirm_with_company": "Upon Agreement with the Company",
+    "tecnicl": "Technical Skills",
+    "personal_skills": "Personal Skills",
+    "job_requird": "Job Requirements",
+    "course_requird": "Course Topics"
+  },
+  "job_edit": {
+    "job_edit": "Edit Job",
+    "job_title": "Job Title",
+    "job_disc": "Job Description",
+    "job_requird": "Job Requirements",
+    "job_level": "Required Job Level",
+    "curent_job_level": "Current Job Level",
+    "advanced_level": "Advanced Level",
+    "average_level": "Average Level",
+    "date_start_job": "Start Date of Employment",
+    "type_price": "Enter currency type",
+    "place": "Enter keywords here and choose the appropriate one...",
+    "course_applicants": "Course Applicants",
+    "or": "or"
+  },
+  "employe_details": {
+    "approved": "Approved",
+    "employe_details": "Employee Details",
+    "Apprentice_details": "Apprentice Details",
+    "learning": "Education",
+    "certificate": "Certificate",
+    "languages": "Languages",
+    "cv_download": "Download CV",
+    "no_cv": "No CV available"
+  },
+  "company_ads": {
+    "Platform_ads": "Platform Ads",
+    "add_ads": "Add New Ad",
+    "ads_link": "Ad Link",
+    "ads_link_place": "Enter the ad title",
+    "upload_image": "Upload Ad Image",
+    "upload_image_text": "Drag the image you want to add or open it from",
+    "here": "here",
+    "send_request": "Send Publishing Request",
+    "no_ads": "There Are No Ads Add Them Now",
+    "edit_ads": "Edit Ad",
+    "done": "The advertising and communication data with you will be reviewed by the platform administration.",
+    "right": "Okay"
+  },
+  "center_company": {
+    "add_course": "Add New Course",
+    "course_title": "Course Title",
+    "write_job_title": "Write Job Title",
+    "write_course_title": "Write Course Title",
+    "Course_Topic": "Course Topic",
+    "course_requierd": "Course Modules",
+    "type_course": "Course Type",
+    "order_now": "Order Now",
+    "course_descriptin": "Course Description",
+    "type_price": "Currency Type",
+    "price": "Price"
+  },
+  "popubData": {
+    "title": "Data Sent Successfully",
+    "desc": "Your data has been sent successfully. Please wait for your request to be confirmed by the website's administration as soon as possible.",
+    "btn1": "OK"
+  },
+  "center": {
+    "add_course": "Add Course",
+    "Courses_offere": "Offered Courses",
+    "Platform_ads": "Course Advertisements",
+    "course_edit": "Edit Course",
+    "center_loction": "Course Location",
+    "no_applicants": "There are no applicants for the course"
+  },
+  "business_pioneer": {
+    "Complete_registration": "Complete Registration",
+    "desc": "Add the following data to continue",
+    "first_name": "Full Name",
+    "last_name": "Last Name",
+    "nationalty": "Nationality",
+    "type_learning": "Type of Education",
+    "type_learning_place": "Select Type of Education",
+    "save": "Save and Continue",
+    "add_project": "Add Project",
+    "all_projects": "All Projects",
+    "view_project_details": "View Project Details",
+    "project_data": "Project Data",
+    "proj_title": "Enter Project Title",
+    "proj_type": "Select Project Type",
+    "proj_natural": "Project Nature",
+    "industrial": "Industrial",
+    "agricultural": "Agricultural",
+    "commercial": "Commercial",
+    "proj_problem": "What is the user's problem that the project addresses?",
+    "solution_of_program": {
+      "title": "What is the solution to the user's problem?",
+      "one": "Technological Means (computers, software, etc.)",
+      "two": "Financial Resources",
+      "three": "Physical Means (vehicles, buildings, etc.)",
+      "four": "Human Resources (employees)",
+      "five": "Printed Materials",
+      "six": "Media and Advertising",
+      "seven": "Government Approvals"
+    },
+    "distinguishes_proj": {
+      "title": "What makes the project unique?",
+      "one": "Price",
+      "two": "Quality",
+      "three": "Delivery Service",
+      "four": "Prompt Supply",
+      "five": "Mobile Application",
+      "six": "Incentives"
+    },
+    "Target_group": {
+      "title": "Target Group",
+      "one": "Everyone",
+      "two": "Adults Only",
+      "three": "Children Only",
+      "four": "Students Only",
+      "five": "Women Only",
+      "six": "Men Only"
+    },
+    "need_investor": {
+      "title": "Do you need an investor?",
+      "one": "Yes",
+      "two": "No"
+    },
+    "Geographical_area": "Geographical Area",
+    "Add_team_members": "Add Team Members",
+    "add": "Add",
+    "member": "Member",
+    "delete": "Delete",
+    "popubData": {
+      "desc": "The project has been added successfully.",
+      "btn1": "OK"
+    },
+    "WelcomData": {
+      "header": "Welcome",
+      "startNow": "Start now by adding your first project.",
+      "hent": "You can now create a new project by adding the one that suits you.",
+      "linkTitle": "Add a new project"
+    }
+  },
+  "start_now": "Start Now",
+  "remember_prog": "Remember Later",
+  "join_prog": "Join The Qualification Program",
+  "not_avilibal_to_prog": "You are not yet qualified to join good jobs",
+  "not_join": "You haven't joined any of the appropriate qualification courses yet. Explore the qualification courses and get them now",
+  "Explore_now": "Explore courses now",
+  "name": "Name",
+  "confirm_pass": "Confirm Password",
+  "institute": {
+    "center_disc": "Center Description",
+    "num_reges": "Registration Number"
+  },
+  "location": "The Location",
+  "no_reseve_code": "Haven't received the code yet?",
+  "resend_code": "Resend"
+}

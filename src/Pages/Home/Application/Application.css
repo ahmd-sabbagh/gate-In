@@ -1,0 +1,54 @@
+.Application {
+  background-color: #ebf7f1;
+}
+
+@media (min-width: 768px) {
+  .Application {
+    margin-top: 30px;
+  }
+}
+@media (min-width: 992px) {
+  .Application {
+    margin-top: 150px;
+  }
+}
+@media (min-width: 1200px) {
+  .Application {
+    margin-top: 200px;
+  }
+}
+
+.Application .row .col-12:first-child h3 {
+  max-width: 450px;
+}
+
+.Application .row .col-12:last-child img {
+  bottom: -48px;
+}
+.Application .row .col-12:last-child img:first-child {
+  max-width: 40%;
+}
+.Application .row .col-12:last-child img:last-child {
+  max-width: 30%;
+}
+.App[dir="rtl"] .Application .row .col-12:last-child img:last-child {
+  left: 30%;
+}
+.App[dir="ltr"] .Application .row .col-12:last-child img:last-child {
+  left: 40%;
+}
+.App[dir="ltr"] .Application .row .col-12:last-child img:first-child {
+  right: 0 !important;
+}
+.App[dir="rtl"] .Application .row .col-12:last-child img:first-child {
+  left: 0 !important;
+}
+@media (min-width: 1400px) {
+  .Application .row .col-12:last-child img:first-child {
+    max-width: 40%;
+  }
+  .Application .row .col-12:last-child img:last-child {
+    left: 30%;
+    max-width: 30%;
+  }
+}

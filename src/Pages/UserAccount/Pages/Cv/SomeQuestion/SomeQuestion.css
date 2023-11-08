@@ -1,0 +1,32 @@
+.App[dir="rtl"] .SomeQuestion .accordion-button::after {
+  margin-left: 0%;
+  margin-right: auto;
+}
+@media (max-width: 600px) {
+  .accordion-button {
+    font-size: 14px;
+  }
+}
+
+.accordion-button:focus {
+  box-shadow: 0 0 0 2px #0185438a;
+  color: black !important;
+}
+
+.accordion-button:not(.collapsed) {
+  color: black !important;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #01854338;
+}
+
+.accordion-button:not(.collapsed)::after {
+  background-image: var(--bs-accordion-btn-icon);
+}
+
+.accordion-item {
+  border: none;
+  border-radius: 10px !important;
+  overflow: hidden;
+}

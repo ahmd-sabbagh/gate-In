@@ -1,0 +1,7 @@
+.projectData .job-type{
+    width: 100%;
+}
+.projectData .job-type label{
+    display: block;
+    text-align: center;
+}

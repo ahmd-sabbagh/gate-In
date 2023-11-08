@@ -1,0 +1,67 @@
+.scrool-sidebar-mobile {
+  height: calc(100vh - 117px);
+  overflow-y: scroll;
+  box-shadow: 0 0 10px 0px #00000014;
+}
+
+.scrool-sidebar-mobile .custom {
+  border-radius: 9px;
+  padding: 32px 22px;
+}
+
+@media (max-width: 991px) {
+  .scrool-sidebar-mobile {
+    height: calc(100vh - 56px);
+  }
+}
+@media (max-width: 991px) {
+  .side-bar-position {
+    position: fixed !important;
+    top: 56px !important;
+    z-index: 50;
+    width: 300px;
+    box-shadow: 4px 0px 11px #707070;
+  }
+  .App[dir="rtl"] .side-bar-position {
+    right: -300px;
+  }
+  .App[dir="ltr"] .side-bar-position {
+    left: -300px;
+  }
+  .App[dir="rtl"] .side-bar-0 {
+    right: 0 !important;
+  }
+  .App[dir="ltr"] .side-bar-0 {
+    left: 0 !important;
+  }
+  .side-bar-position .icon-open div {
+    font-size: 45px;
+    color: var(--main-color);
+    top: 25px;
+    box-shadow: 0 0 20px 0px #00000054;
+  }
+  .App[dir="ltr"] .side-bar-position .icon-open div {
+    right: -52px;
+  }
+  .App[dir="rtl"] .side-bar-position .icon-open div {
+    left: -52px;
+  }
+}
+
+/* active link */
+.user-account-sideBar .persone a {
+  padding: 4px 12px;
+  transition: 0.5s;
+  font-size: 14px;
+  font-weight: 700;
+  color: #576b74;
+  border-radius: 2px;
+}
+.user-account-sideBar .persone a:hover {
+  background-color: #b2dac66e;
+  color: #018543;
+}
+.user-account-sideBar .persone .active {
+  background-color: #b2dac66e;
+  color: #018543;
+}

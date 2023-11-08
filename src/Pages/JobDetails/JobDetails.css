@@ -1,0 +1,78 @@
+.job-and-course-page-detail .row {
+  row-gap: 24px;
+}
+.job-and-course-page-detail {
+  background: whitesmoke;
+}
+
+/* sidebar */
+.job-and-course-page-detail .about-company .icon {
+  color: var(--main-color);
+}
+.job-and-course-page-detail .about-company p {
+  font-size: 12px;
+}
+.job-and-course-page-detail .about-company .image {
+  max-width: 50px;
+  min-width: 50px;
+  max-height: 50px;
+  min-height: 50px;
+  border-radius: 50%;
+}
+
+/* Similar job opportunities */
+.job-and-course-page-detail .similar-job .work-componetn .desc span {
+  font-size: 12px;
+  font-weight: 400;
+}
+.job-and-course-page-detail .similar-job .work-componetn .desc .circle {
+  width: 5px;
+  height: 5px;
+  background: #d9d9d9;
+  border-radius: 50%;
+}
+.job-and-course-page-detail .similar-job .work-componetn .desc .type,
+.job-and-course-page-detail .similar-job .work-componetn .desc .time {
+  color: var(--red-color);
+}
+
+.job-and-course-page-detail .similar-job .work-componetn p {
+  font-size: 12px;
+  font-weight: 500;
+  color: #474d6d;
+}
+
+.job-and-course-page-detail .similar-job .work-componetn .tags div {
+  font-size: 12px;
+}
+
+/* JobDetails */
+@media (max-width: 767px) {
+  .JobDetails .adds .top {
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 24px;
+  }
+  .job-and-course-page-detail .tags {
+    flex-direction: column;
+    gap: 242px;
+  }
+}
+.JobDetails .adds .image {
+  width: 104px;
+  height: 104px;
+  border-radius: 50%;
+}
+.JobDetails .like {
+  min-width: 68px;
+  background: rgb(1 133 67 / 10%);
+  height: 68px;
+  font-size: 30px;
+  color: var(--main-color);
+}
+.JobDetails .bottom button {
+  width: 393px;
+  height: 68px;
+  background: var(--main-color);
+  color: white;
+}

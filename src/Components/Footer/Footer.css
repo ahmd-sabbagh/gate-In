@@ -1,0 +1,39 @@
+.Footer {
+  background: #e3e3e3;
+  color: black;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  top: 100%;
+}
+.Footer .footer-links a {
+  color: black;
+  font-size: 16px;
+  font-weight: 700;
+}
+.Footer .footer-logo p {
+  font-size: 14px;
+}
+
+.Footer .social-icons .icon { 
+  width: 41px;
+  height: 41px;
+  border-radius: 50%;
+  background-color: white;
+  color: black;
+  transition: 0.3s;
+  font-size: 20px;
+}
+.Footer .social-icons .icon:hover {
+  transform: rotate(50deg) scale(1.2);
+}
+/* Store */
+
+.Footer .footer-store p {
+  text-align: center;
+}
+@media (max-width:767px) {
+  .Footer .footer-logo p{
+    text-align: center;
+  }
+}

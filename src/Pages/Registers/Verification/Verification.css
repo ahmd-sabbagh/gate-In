@@ -1,0 +1,17 @@
+.Verification{
+    background: linear-gradient(
+        90deg,
+        rgba(0, 0, 0, 0.57) 0%,
+        rgba(0, 0, 0, 0.57) 100%
+      ),
+      url("../Assets/LoginCover.jpeg");
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+.Verification .content {
+    
+    border-radius: 29px;
+    background-color: white;
+    max-width: 811px;
+  }

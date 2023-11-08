@@ -1,0 +1,36 @@
+/* Card */
+.card-program .image {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media (min-width: 992px) {
+  .card-program .image {
+    min-width: 350px;
+    max-width: 350px;
+    max-height: 300px;
+  }
+}
+@media (max-width: 767px) {
+  .card-program .image {
+    min-width: 100% !important;
+  }
+}
+
+@media (max-width: 991px) {
+  .card-program .image {
+    min-width: 200px;
+    max-width: 200px;
+  }
+}
+
+.card-program .image img {
+  max-height: 100%;
+}
+.card-program .bottom a {
+  flex: 1;
+  max-width: 533px;
+  background-color: var(--main-color);
+  color: white;
+}
+/* Card */

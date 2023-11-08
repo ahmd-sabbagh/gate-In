@@ -1,0 +1,89 @@
+.UserAccount {
+  background-color: whitesmoke;
+}
+/* Start Side Bar */
+@media (min-width: 992px) {
+  .user-account-sideBar {
+    height: calc(100vh - 69px);
+  }
+}
+.user-account-sideBar {
+  position: sticky;
+  top: 69px;
+  height: calc(100vh - 56px);
+  transition: 0.5s;
+}
+/* Hide scrollbar for Chrome, Safari and Opera */
+.user-account-sideBar .persone {
+  overflow: scroll;
+  padding-bottom: 10px;
+}
+.user-account-sideBar .persone::-webkit-scrollbar {
+  display: none;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none;
+}
+
+.user-account-sideBar svg path {
+  stroke: #b2b2cd;
+}
+.user-account-sideBar .control:hover {
+  background-color: rgb(1 133 67 / 30%);
+}
+.user-account-sideBar .control:hover .icon {
+  color: var(--main-color) !important;
+}
+.user-account-sideBar .control:hover svg path {
+  stroke: var(--main-color);
+}
+.user-account-sideBar .control:hover h4 {
+  color: var(--main-color);
+}
+.user-account-sideBar .control-color svg path {
+  stroke: var(--main-color);
+}
+.user-account-sideBar .control-color h4 {
+  color: var(--main-color) !important;
+}
+.user-account-sideBar .control-color {
+  background-color: rgb(1 133 67 / 30%);
+}
+.user-account-sideBar .control-color .icon {
+  color: var(--main-color) !important;
+}
+.user-account-sideBar h4 {
+  color: #576b74;
+}
+.user-account-sideBar .control .icon {
+  font-size: 20px;
+  font-weight: bold;
+  color: #bcbcd3;
+  transition: 0.5s;
+}
+.user-account-sideBar .menue {
+  height: 0;
+  overflow: hidden;
+  transition: 0.5s;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 6px 0px #0000000f;
+}
+.user-account-sideBar a {
+  color: #111827;
+}
+/* heights */
+.control-menue-heigh-one {
+  height: 95px !important;
+  margin-top: 10px;
+}
+.control-menue-heigh-two {
+  height: 160px !important;
+  margin-top: 10px;
+}
+.control-menue-heigh-three {
+  height: 125px !important;
+  margin-top: 10px;
+}
+/* heights */
+/* Start Side Bar */
+

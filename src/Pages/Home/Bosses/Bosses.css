@@ -1,0 +1,34 @@
+.Bosses .row{
+    flex-direction: row-reverse;
+}
+.Bosses .col-12:first-child{
+    background-color: var(--main-color);
+    padding: 60px;
+}
+
+.Bosses .row .col-12:last-child{
+    background-image: url(./Assets/Land.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Bosses .col-12:first-child:hover .text h4::before{
+    width: 100%;
+}
+
+.Bosses .text h4::before{
+    content: "";
+    position: absolute;
+    width: 50%;
+    background-color: white;
+    height: 2px;
+    bottom: -5px;
+    transition: 0.5s;
+}
+
+@media (max-width:991px) {
+    .Bosses .col-12:first-child{
+        text-align: center;
+    } 
+}

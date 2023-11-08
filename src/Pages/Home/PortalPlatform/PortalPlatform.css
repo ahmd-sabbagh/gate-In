@@ -1,0 +1,24 @@
+.PortalPlatform {
+  background: rgb(1 133 67 / 8%);
+}
+/* Header */
+.PortalPlatform .header {
+  max-width: 711px;
+}
+/* Header */
+
+/* Section */
+.platform-section .icon {
+  background: rgb(1 133 67 / 0.1);
+  max-width: 65px;
+  min-width: 65px;
+  height: 65px;
+}
+
+@media (max-width: 767px) {
+  .platform-section .text {
+    text-align: center;
+  }
+}
+
+/* Section */

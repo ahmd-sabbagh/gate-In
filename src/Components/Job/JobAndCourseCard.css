@@ -1,0 +1,96 @@
+.JobAndCourseCard {
+  color: unset;
+  box-shadow: 0 0 10px 0px #0000000f;
+}
+.JobAndCourseCard::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 0;
+  top: 0;
+  left: 0;
+  background-color: var(--main-color);
+  opacity: 0.1;
+  z-index: 1;
+  transition: 0.5s;
+}
+
+.JobAndCourseCard > .position-relative {
+  z-index: 2;
+}
+
+.JobAndCourseCard:hover::after {
+  height: 100%;
+}
+
+.JobAndCourseCard:hover .right-button,
+.JobAndCourseCard:hover .left-button {
+  box-shadow: 0 0 20px 11px #e5f2ec;
+}
+
+.JobAndCourseCard .image {
+  max-width: 68px;
+  min-width: 68px;
+  max-height: 68px;
+  min-height: 68px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+/* work type */
+.JobAndCourseCard .description .type-work .circle {
+  width: 6px;
+  height: 6px;
+  background: #d9d9d9;
+  border-radius: 50%;
+}
+.JobAndCourseCard .description .type-work .red {
+  color: var(--red-color);
+}
+.JobAndCourseCard .description .text p {
+  color: #474d6d;
+}
+@media (max-width: 767px) {
+  .JobAndCourseCard .description .type-work span {
+    font-size: 12px !important;
+  }
+}
+/* work type */
+/* Btns */
+.JobAndCourseCard .description .buttons button {
+  width: 100%;
+  background: var(--main-color);
+  color: white;
+  height: 56px;
+}
+.JobAndCourseCard .description .buttons a {
+  width: 100%;
+  border: 1.5px solid var(--main-color);
+  height: 56px;
+  color: var(--main-color);
+}
+/* Btns */
+/* Icons */
+.JobAndCourseCard .description .icons span {
+  border: 0.5px solid #b8b8b8;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  color: var(--main-color);
+  transform: 0.5s;
+}
+.JobAndCourseCard .description .icons span:hover {
+  border: none;
+  background-color: var(--main-color);
+  color: white;
+}
+.JobAndCourseCard .islike {
+  border: none;
+  background-color: var(--main-color);
+  color: white !important;
+}
+/* Icons */
+.JobAndCourseCard .student-count {
+  border-radius: 37px;
+  background: #f7f7f7;
+}

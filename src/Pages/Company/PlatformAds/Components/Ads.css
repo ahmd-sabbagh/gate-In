@@ -1,0 +1,36 @@
+.Ads-Card {
+  position: relative;
+}
+.Ads-Card:hover .controler {
+  display: flex !important;
+}
+.Ads-Card .controler {
+  flex-direction: column;
+  gap: 4px;
+}
+.Ads-Card .controler {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 11;
+  display: none;
+  transition: 0.5s;
+}
+.Ads-Card .controler a {
+  padding: 1px;
+  border-radius: 5px;
+  background: #01854361;
+}
+.Ads-Card .controler div {
+  padding: 1px;
+  border-radius: 5px;
+  background: #01854361;
+}
+.Ads-Card .image {
+  min-height: 221px;
+  max-height: 221px;
+  overflow: hidden;
+}
+.Ads-Card .icon {
+  font-size: 25px;
+}

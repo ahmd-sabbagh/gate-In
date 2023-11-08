@@ -1,0 +1,51 @@
+.SideBarComponent {
+  transition: 0.5s;
+}
+.scrool-sidebar-mobile {
+  /* border-radius: 9px;
+    padding: 32px 22px; */
+  height: calc(100vh - 117px);
+  overflow-y: scroll;
+}
+@media (max-width: 991px) {
+  .scrool-sidebar-mobile {
+    height: calc(100vh - 56px);
+    background-color: white;
+  }
+  .SideBarComponent {
+    background-color: white;
+  }
+}
+@media (max-width: 991px) {
+  .side-bar-position {
+    position: fixed !important;
+    top: 56px !important;
+    z-index: 50;
+    width: 300px;
+    box-shadow: 4px 0px 11px #707070;
+  }
+  .App[dir="rtl"] .side-bar-position {
+    right: -300px;
+  }
+  .App[dir="ltr"] .side-bar-position {
+    left: -300px;
+  }
+  .App[dir="rtl"] .side-bar-0 {
+    right: 0 !important;
+  }
+  .App[dir="ltr"] .side-bar-0 {
+    left: 0 !important;
+  }
+  .side-bar-position .icon-open div {
+    font-size: 45px;
+    color: var(--main-color);
+    top: 25px;
+    box-shadow: 0 0 20px 0px #00000054;
+  }
+  .App[dir="ltr"] .side-bar-position .icon-open div {
+    right: -52px;
+  }
+  .App[dir="rtl"] .side-bar-position .icon-open div {
+    left: -52px;
+  }
+}

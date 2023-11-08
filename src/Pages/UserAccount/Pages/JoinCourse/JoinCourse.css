@@ -1,0 +1,25 @@
+.JoinCourse label {
+  border-radius: 8px;
+  border: 0.7px solid #c9c9c9;
+}
+.JoinCourse .icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #e1fcee;
+  color: var(--main-color);
+}
+.JoinCourse label .text {
+  color: #5c607b;
+}
+.JoinCourse input[type="radio"]:checked + label {
+  border-radius: 8px;
+  border: 1.5px solid #018543;
+  background: rgba(1, 133, 67, 0.1);
+}
+.JoinCourse input[type="radio"]:checked + label .icon {
+  background-color: white;
+}
+.JoinCourse input[type="radio"]:checked + label .text {
+  color: var(--main-color);
+}

@@ -1,0 +1,30 @@
+.SuggestedEmployeesCard .SuggestedEmployeesComponent:not(:last-child) {
+  border-bottom: 0.5px solid #c7c7c7;
+}
+
+/* fs */
+.fs-14 {
+  font-size: 14px;
+  font-weight: 600;
+}
+.fs-12 {
+  font-size: 13px;
+  font-weight: 400;
+  color: #576b74;
+}
+/* controlar */
+.SuggestedEmployeesComponent .controlar span,
+.SuggestedEmployeesComponent .controlar a {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  color: white;
+  cursor: pointer;
+}
+.SuggestedEmployeesComponent .controlar span:first-child {
+  background-color: var(--main-color);
+}
+.SuggestedEmployeesComponent .controlar a {
+  background-color: var(--main-color);
+  font-size: 10px;
+}

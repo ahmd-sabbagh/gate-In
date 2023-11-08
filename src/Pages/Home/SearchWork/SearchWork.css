@@ -1,0 +1,31 @@
+.SearchWork .col-12:first-child{
+    background-color: var(--red-color);
+    padding: 60px;
+}
+
+.SearchWork .row .col-12:last-child{
+    background-image: url(./Assets/land.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.SearchWork .col-12:first-child:hover .text h4::before{
+    width: 40%;
+}
+
+.SearchWork .text h4::before{
+    content: "";
+    position: absolute;
+    width: 15%;
+    background-color: white;
+    height: 2px;
+    bottom: -5px;
+    transition: 0.5s;
+}
+
+@media (max-width:991px) {
+    .SearchWork .col-12:first-child{
+        text-align: center;
+    } 
+}

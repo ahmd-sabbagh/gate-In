@@ -1,0 +1,16 @@
+.company-side-bar .side-bar-link{
+    display: flex;
+    align-items: center;
+    gap:18px ;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 11px;
+    border-radius: 8px;
+}
+.company-side-bar .side-bar-link.active{
+    color: var(--main-color);
+    background-color:rgb(1 133 67 / 30%); ;
+}
+.company-side-bar a{
+    color: #576B74;
+}

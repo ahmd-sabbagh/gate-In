@@ -1,0 +1,83 @@
+.employe-page {
+  background-color: whitesmoke;
+}
+.employe-page label {
+  color: #505050;
+  font-weight: 600;
+}
+.employe-page .add {
+  color: var(--main-color);
+  font-size: 14px;
+  font-weight: 700;
+}
+/* LearningData */
+.LearningData .lin {
+  flex: 1;
+  height: 1px;
+  background-color: #bebebe;
+}
+
+.languageSelect div {
+  background: var(--main-color);
+  color: white;
+  border-radius: 31px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+/* LearningData */
+
+/* Jop Application */
+.JobApplication .job-type input[type="checkbox"] {
+  display: none;
+}
+.JobApplication .job-level input[type="checkbox"] {
+  display: none;
+}
+
+.JobApplication .job-type input[type="checkbox"]:checked + label {
+  border-color: var(--main-color) !important;
+  background: rgba(1, 133, 67, 0.1);
+  color: var(--main-color);
+}
+.JobApplication .job-level input[type="checkbox"]:checked + label {
+  border-color: var(--main-color) !important;
+  background: rgba(1, 133, 67, 0.1);
+  color: var(--main-color);
+}
+
+.App[dir="rtl"] .JobApplication .tag-price {
+  padding-right: 8px;
+  border-right: 1px solid #b7b7b7;
+}
+.App[dir="ltr"] .JobApplication .tag-price {
+  padding-left: 8px;
+  border-left: 1px solid #b7b7b7;
+}
+/* Job Level  */
+.JobApplication .job-level input[type="radio"] {
+  display: none;
+}
+
+.JobApplication .job-level input[type="radio"]:checked + label {
+  border-color: var(--main-color) !important;
+  background: rgba(1, 133, 67, 0.1);
+  color: var(--main-color);
+}
+/* Job Level  */
+/* Salary check */
+.from .cheack-company input:checked .from .salary-null {
+  pointer-events: none !important;
+}
+/* Salary check */
+.JobApplication textarea {
+  min-height: 150px;
+}
+/* Jop Application */
+/* btn */
+.persnol-data-btn {
+  border: none;
+  background: var(--main-color);
+  color: white;
+  width: 100%;
+}

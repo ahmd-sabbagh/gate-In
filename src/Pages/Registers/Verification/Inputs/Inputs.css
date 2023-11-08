@@ -1,0 +1,53 @@
+.Inputs .container{
+  gap: 12px;
+}
+.Inputs .character {
+  width: 60px;
+  height: 60px;
+  font-size: 36px;
+  background-color: #EEEFF2 !important;
+  border-radius: 8px;
+  color: black;
+  text-align: center;
+  cursor: default;
+  user-select: none;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  caret-color: var(--main-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Inputs .character--inactive {
+  background-color: lightgray;
+  color: #667085 !important;
+  box-shadow: none;
+}
+
+.Inputs .character--inactive:first-child {
+  background-color: lightgray;
+  color: #69696959 !important;
+}
+
+.Inputs .character--selected {
+  border: 1px solid var(--red-color);
+  background-color: white !important;
+}
+
+.Inputs .vi__wrapper{
+margin: auto;
+}
+
+@media (max-width:767px) {
+  .Inputs .character{
+    width: 40px;
+    height: 40px;
+  }
+}
+
+/* btn */
+.Inputs button{
+  background-color: var(--main-color);
+  color: white;
+}

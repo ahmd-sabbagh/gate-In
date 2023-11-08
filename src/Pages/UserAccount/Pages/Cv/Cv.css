@@ -1,0 +1,37 @@
+.Cv-page label {
+  background: rgba(1, 133, 67, 0.1);
+}
+.Cv-page label .icon {
+  font-size: 25px;
+  color: var(--main-color);
+}
+.Cv-page label p {
+  max-width: 274px;
+}
+.Cv-page label p span {
+  color: var(--main-color);
+}
+.Cv-page .window .or::after {
+  content: "";
+  position: absolute;
+  width: 45%;
+  height: 0.5px;
+  background-color: #a7a7a7;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.Cv-page .window .or::before {
+  content: "";
+  position: absolute;
+  width: 45%;
+  height: 0.5px;
+  background-color: #a7a7a7;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.Cv-page .or-option p{
+max-width: 389px;
+}

@@ -1,0 +1,48 @@
+.css-b1hudp-control:hover {
+  border-color: var(--main-color) !important;
+}
+.CreatAccount {
+  background: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.57) 0%,
+      rgba(0, 0, 0, 0.57) 100%
+    ),
+    url("../Assets/LoginCover.jpeg");
+  background-size: cover;
+  background-position: center;
+  min-height: calc(100vh);
+}
+
+.CreatAccount .content {
+  border-radius: 29px;
+  background-color: white;
+  max-width: 700px;
+}
+.CreatAccount .content form input {
+  border: 0.7px solid #c9c9c9;
+  border-radius: 8px;
+  padding: 16px;
+  outline: none;
+}
+.CreatAccount .content form button {
+  border: none;
+  background-color: var(--main-color);
+  padding: 18px;
+  border-radius: 8px;
+  color: white;
+}
+
+/* Select 2 From Create Account Page */
+.css-blhudp-control:hover {
+  border-color: var(--main-color) !important;
+}
+.css-blhudp-control {
+  box-shadow: none !important;
+  border-color: #dee2e6 !important;
+  padding: 10px 0;
+}
+.css-v68sna-control {
+  padding: 10px 0;
+  border-radius: 10px !important;
+}
+/* Select 2 From Create Account Page */

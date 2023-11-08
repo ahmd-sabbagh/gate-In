@@ -1,0 +1,18 @@
+.home-page .Landing {
+  height: 640px;
+  background: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.57) 0%,
+      rgba(0, 0, 0, 0.57) 100%
+    ),
+    url(./Assets/landing.png);
+  background-size: cover;
+  background-position: center;
+}
+.home-page .Landing h1,
+.home-page .Landing p{
+    color: #E1F1E9;
+}
+.home-page .Landing p:last-child{
+    max-width: 768px;
+}

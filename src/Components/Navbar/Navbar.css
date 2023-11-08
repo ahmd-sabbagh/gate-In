@@ -1,0 +1,197 @@
+/* Logo Image */
+.navbar-main .logo-image {
+  width: 90px;
+}
+.navbar-brand p {
+  font-size: 7px;
+}
+@media (min-width: 992px) {
+  .navbar-main .logo-image {
+    width: 110px;
+  }
+}
+
+/* Logo Image */
+
+.navbar-toggler:focus {
+  box-shadow: 0 0 0 4px #018543;
+}
+
+/* Links */
+.navbar-main ul a {
+  font-size: 18px;
+  font-weight: 500;
+  padding: 0 13px !important;
+  position: relative;
+}
+
+@media (min-width: 992px) {
+  .navbar-main ul a::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 5px;
+    background-color: var(--main-color);
+    bottom: -22px;
+    transition: 0.5s;
+  }
+}
+
+.App[dir="ltr"] .navbar-main ul a::after {
+  left: 0;
+}
+.App[dir="rtl"] .navbar-main ul a::after {
+  right: 0;
+}
+.navbar-main ul a:hover::after {
+  width: 100%;
+}
+.navbar-main ul .active::after {
+  width: 100%;
+}
+/* user account */
+.userAccount .image {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: #ebeaed;
+  outline: 3px solid #ebeaed;
+}
+.userAccount .image img {
+  height: 32px;
+  width: 32px;
+  object-fit: cover;
+}
+.userAccount .useraccount-window {
+  top: calc(100% + 10px);
+  left: 0;
+  background-color: white;
+  width: 160px;
+  box-shadow: 0px 4px 28px rgba(0, 0, 0, 0.19);
+}
+/* user account */
+/* Login Btn */
+.login-language .login {
+  background-color: var(--main-color);
+  color: white;
+  border-radius: 40px;
+  width: 148px;
+  height: 50px;
+}
+
+/* Login Btn */
+
+/* Menu Language */
+.login-language .language {
+  width: 28px;
+  height: 28px;
+}
+
+.login-language .language svg {
+  width: 100%;
+}
+
+.login-language .language-cont .menu {
+  top: 37px;
+  box-shadow: 0px 4px 28px rgba(0, 0, 0, 0.19);
+}
+
+.App[dir="ltr"] .login-language .language-cont .menu {
+  right: 0;
+}
+.App[dir="rtl"] .login-language .language-cont .menu {
+  left: 0;
+}
+
+.login-language .language-cont .menu .icon {
+  width: 16px;
+}
+
+.login-language .language-cont .menu .icon svg {
+  width: 100%;
+}
+/* Menu Language */
+
+@media (min-width: 992px) {
+  .navbar-main {
+    width: 100%;
+    height: 69px;
+  }
+}
+@media (max-width: 991px) {
+  .navbar-main {
+    width: 100%;
+    height: 56px;
+  }
+  .App[dir="ltr"] .navbar-main .logo-image {
+    margin: auto;
+  }
+  .App[dir="rtl"] .navbar-main .logo-image {
+    margin-left: 0;
+    margin-right: auto;
+  }
+}
+.navbar-main .nav-position {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  box-shadow: 0px -8px 20px 0px #5a5a5a;
+  z-index: 100;
+  min-height: 69px;
+}
+/* Notification */
+.notification {
+  width: 32px;
+  height: 32px;
+  border-radius: 6px;
+  background: #eff0f1;
+  color: #5c5c6b;
+  font-size: 23px;
+}
+.notification-cont .count {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: var(--main-color);
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translate(50%, -50%);
+}
+.notification-cont .window {
+  min-width: 250px;
+  max-width: 300px;
+  top: 39px;
+}
+.App[dir="ltr"] .notification-cont .window {
+  left: 0;
+}
+.App[dir="rtl"] .notification-cont .window {
+  right: 0;
+}
+@media (max-width: 767px) {
+  .notification-cont .window {
+    left: auto !important;
+  }
+}
+.notification-cont .window a {
+  /* border-top: 1px solid #f7f7f7; */
+  border-bottom: 1px solid #f7f7f7;
+  font-size: 14px;
+  padding: 7px 0;
+  transition: 0.3s;
+  color: #636363 !important;
+}
+.notification-cont .window a:hover {
+  background-color: #f7f7f7;
+  color: black !important;
+}
+.notification-cont .window .icon {
+  color: var(--main-color);
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: #f7f7f7;
+}

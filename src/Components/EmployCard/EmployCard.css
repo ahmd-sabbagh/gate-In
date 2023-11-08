@@ -1,0 +1,22 @@
+.App[dir="rtl"] .EmployCard .icon-like {
+  left: 24px;
+  top: 24px;
+}
+.App[dir="ltr"] .EmployCard .icon-like {
+  right: 24px;
+}
+.EmployCard .status span {
+  font-size: 12px;
+}
+.EmployCard .circle {
+  width: 6px;
+  height: 6px;
+  background: #d9d9d9;
+  border-radius: 50%;
+}
+.EmployCard .red {
+  color: var(--red-color);
+}
+.EmployCard form {
+  font-size: 12px;
+}

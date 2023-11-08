@@ -1,0 +1,99 @@
+/* ---------------- */
+.FilterComponnents {
+  position: sticky;
+  top: 117px;
+  transition: 0.5s;
+}
+/* .FilterComponnents .scrool-sidebar-mobile {
+  border-radius: 9px;
+  padding: 32px 22px;
+  height: calc(100vh - 117px);
+  overflow-y: scroll;
+} */
+/* @media (max-width: 991px) {
+  .FilterComponnents .scrool-sidebar-mobile {
+    height: calc(100vh - 56px);
+  }
+} */
+.FilterComponnents .head {
+  padding-bottom: 19px;
+  border-bottom: 0.5px solid #bdbdbd;
+}
+
+/* job-classification */
+.FilterComponnents .one > div {
+  padding: 19px 0;
+}
+.FilterComponnents .one {
+  height: 58px;
+  transition: 0.5s;
+  overflow: hidden;
+}
+.FilterComponnents .one:not(:last-child) {
+  padding-bottom: 24px;
+}
+
+.FilterComponnents .openMenue {
+  height: fit-content !important;
+}
+
+.FilterComponnents .one .tittle .icon {
+  font-size: 20px;
+  cursor: pointer;
+  transition: .3s;
+}
+/* checkbox */
+.FilterComponnents .checkboxes input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+.FilterComponnents .checkboxes span {
+  color: var(--main-color);
+  width: 100%;
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+.checked-item {
+  background-color: #0185430d;
+}
+/* checkbox */
+.FilterComponnents .head button {
+  background-color: transparent;
+}
+/* sidebar position */
+/* @media (max-width: 991px) {
+  .side-bar-position {
+    position: fixed !important;
+    top: 56px !important;
+    z-index: 50;
+    width: 300px;
+    box-shadow: 4px 0px 11px #707070;
+  }
+  .App[dir="rtl"] .side-bar-position {
+    right: -300px;
+  }
+  .App[dir="ltr"] .side-bar-position {
+    left: 100%;
+  }
+  .App[dir="rtl"] .side-bar-0 {
+    right: 0 !important;
+  }
+  .App[dir="ltr"] .side-bar-0 {
+    left: 0 !important;
+  }
+  .side-bar-position .icon-open div {
+    font-size: 45px;
+    color: var(--main-color);
+    top: 25px;
+    box-shadow: 0 0 20px 0px #00000054;
+  }
+  .App[dir="ltr"] .side-bar-position .icon-open div {
+    right: -52px;
+  }
+  .App[dir="rtl"] .side-bar-position .icon-open div {
+    left: -52px;
+  }
+} */
+/* sidebar position */

@@ -1,0 +1,24 @@
+.articles-landing{
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.articles-landing::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: black;
+    opacity: .3;
+    z-index: 1;
+}
+.articles-landing .container{
+    position: relative;
+    z-index: 2;
+}
+.articles-landing .cont{
+    max-width: 514px;
+}

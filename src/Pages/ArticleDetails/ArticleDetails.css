@@ -1,0 +1,33 @@
+.ArticleDetails .header {
+  max-width: 734px;
+}
+.ArticleDetails .image {
+  max-height: 400px;
+}
+.ArticleDetails .image img {
+  object-fit: cover;
+}
+.ArticleDetails .share-icon span {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  font-size: 24px;
+  cursor: pointer;
+}
+.ArticleDetails .share-icon span:first-child {
+  color: #1976d2;
+}
+.ArticleDetails .share-icon span:nth-child(2) {
+  color: #03a9f4;
+}
+.ArticleDetails .share-icon span:nth-child(3) {
+  color: #0077b5;
+}
+.ArticleDetails .share-icon span:nth-child(4) {
+  color: #219653;
+}
+
+.ArticleDetails .texts span {
+  font-family: "Cairo", sans-serif !important;
+  background-color: transparent !important;
+}

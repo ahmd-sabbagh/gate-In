@@ -1,0 +1,19 @@
+
+@media (min-width:992px)  {
+    .AllJobs .JobAndCourseCard {
+        flex-direction: column !important;
+    }
+}
+
+@media (max-width:767px) {
+    .AllJobs .JobAndCourseCard{
+        flex-direction: column;
+    }
+}
+
+@media (min-width:992px) and (max-width:1199px) {
+    .AllJobs .sidebar .head h4,
+    .AllJobs .sidebar .head button{
+        font-size: 16px;
+    }
+}
